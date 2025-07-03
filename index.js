@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const jwt = require('jsonwebtoken'); // Added for JWT
-const cookieParser = require('cookie-parser'); 
+const cookieParser = require('cookie-parser'); // Added for JWT
 const dotenv = require('dotenv');
 dotenv.config();
 const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
